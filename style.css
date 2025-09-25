@@ -1,0 +1,146 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+body{
+  background-color:#1F3A60 ;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-wrap: wrap;
+}
+.header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  font-size: 20px;
+  color: #FFFFFF;
+}
+.header .icon{
+  font-size: 25px;
+}
+.btncontainer{
+ display: flex;
+ gap: 20px;
+ margin-top: 20px;
+}
+.btncontainer button{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.btn1{
+  background-color: red;
+  border: 5px solid red;
+  outline: 2px solid white;
+  box-shadow: 0 0 0 5px  red;
+}
+.btn2{
+  background-color: blue;
+  border: 5px solid blue;
+  outline: 2px solid white;
+  box-shadow: 0 0 0 5px blue;
+}
+.btn3{
+  background-color: green;
+  border: 5px solid green;
+  outline: 2px solid white;
+  box-shadow: 0 0 0 5px green;
+}
+button img{
+width: 80%;
+}
+button:hover{
+  cursor: pointer;
+}
+button:active{
+  outline: 6px solid white;
+  border: none;
+}
+
+.result-data{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.result-data input{
+  max-width: 400px;
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  border: 1.5px solid black;
+  border-radius: 10px ;
+  line-height: 1.5;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.results-container{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 250px;
+  height: 100px;
+  margin-top: 20px;
+}
+.box{
+  width: 30%;
+  height: 80px;
+  display: grid;
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+  background-color: white;
+  border: 2px solid black;
+}
+.box .title{
+  background-color: rgba(128, 128, 128, 0.678);
+  height: fit-content;
+}
+.box .points{
+  font-size: 50px;
+}
+.points1 , .points2, .points3{
+  font-size: 50px;
+}
+.resetbtn{
+  margin-top: 20px;
+}
+.resetbtn button{
+  padding: 10px;
+  width: 250px;
+  background-color: rgb(251, 197, 49);
+  border: 5px solid rgb(251, 197, 49);
+  border-radius: 5px;
+  outline: 2px solid white;
+  box-shadow: 0 0 0 5px rgb(251, 197, 49);
+  font-size: 22px;
+  font-weight: bold;
+}
+.resetbtn button:hover{
+  cursor: pointer;
+}
+.resetbtn button:active{
+  outline: 6px solid white;
+}
+footer{
+  position: fixed;
+  bottom: 20px;
+  color: #FFFFFF;
+  font-size: 20px;
+}
+footer a{
+  color: #FFFFFF;
+  text-decoration: none;
+}
+footer a:hover{
+  color: yellow;
+}
